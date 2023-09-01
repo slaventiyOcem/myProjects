@@ -1,0 +1,494 @@
+*
+  font-family: "Montserrat"
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+@import url('https://fonts.cdnfonts.com/css/mont')
+$color-black: #000000
+$color_orange: #FE6C17
+$color_darkgreen: #182E20
+$color_gold: gold
+$color_blue: #6FBCF5
+
+$color: rgb(51, 51, 51)
+$color_white: #fff
+
+.container
+  max-width: 1620px
+  margin: 0 auto
+  padding: 0 15px 20px 15px
+  height: 100%
+
+.delivery_top
+  height: 59px
+  background: rgba(111, 188, 245, 0.15)
+  text-align: center
+
+.delivery_text
+  margin-top: 15px
+  font-weight: 600
+  font-size: 14px
+  color: #485E50
+
+.delivery
+  display: flex
+  justify-content: center
+
+
+.delivery_img
+  margin: 10px 17px
+
+
+.img_desing_mac
+  margin-top: 41px
+
+.delivery_link
+  text-decoration: none
+  color: #485E50
+
+  &:hover
+    color: #485E50
+    text-decoration: none
+
+  span
+    color: #485E50
+    font-weight: 100
+    font-size: 10px
+    text-decoration: underline
+
+.navbar
+  max-width: 100%
+  height: 100px
+  background-color: #F1EEE6
+
+.logo
+  margin-right: 50px
+
+.category_img_menu
+  display: flex
+
+.category_text
+  margin-top: 32px
+  font-weight: 500
+  font-size: 14px
+
+  color: #182E20
+
+
+.category_link
+  color: #182E20
+  font-weight: 500
+
+  &:hover
+    color: #182E20
+    text-decoration: none
+
+.category_img
+  padding-right: 10px
+
+.shell
+  box-shadow: -2px 1px 3px 0
+  background-color: #F1EEE6
+  border-radius: 20px
+
+.search
+  width: 400px
+  height: 47px
+  border: none
+  background-color: #F1EEE6
+  border-radius: 20px
+  box-shadow: none
+  color: #182E20
+  font-size: 18px
+  padding: 15px
+
+input
+  border: none
+  background: transparent
+  outline: none
+
+.search_login
+  padding: 11px
+
+.icons_login
+  padding-right: 10px
+
+.switc_language
+  margin-top: 15px
+  display: flex
+
+  .eu_language
+    margin-right: 20px
+    font-weight: 400
+
+    &:hover
+      border: 1px solid black
+      border-radius: 2px
+
+  .uk_language
+
+    &:hover
+      border: 1px solid black
+      border-radius: 2px
+
+
+.text_category
+  margin-top: 100px
+  font-size: 24px
+  color: $color-black
+
+.wrapper
+  position: relative
+  max-width: calc(104vw - 4rem)
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+
+.wrapper
+
+  height: 99vh
+  align-items: center
+  justify-content: center
+
+.wrapper button
+  position: absolute
+  width: 3.5rem
+  height: 3.5rem
+  border-radius: 50%
+  border: none
+  outline: none
+  cursor: pointer
+  background-color: #f0f0f0
+  color: #000
+
+.wrapper button
+  &:hover
+    filter: brightness(1.2)
+
+  &:active
+    filter: brightness(0.8)
+
+.wrapper button.navigator1
+  left: 0
+  translate: 10%
+
+.navigator2
+  right: 0
+  translate: 0%
+
+.wrapper button i
+  font-size: 2.3rem
+
+.container-slider
+  position: relative
+  width: auto
+  height: 842px
+  max-width: 100%
+  overflow: hidden
+  //border: 4px solid #ddd
+  border-radius: 5px
+//box-shadow: 0 0 15px 8px rgba(0,0,0,0.25)
+
+.container-slider .slider
+  display: flex
+  position: center
+  //width: fit-content
+  width: 1920px
+  height: 100%
+  background-color: #ddd
+
+.container-slider .slider img
+  width: 1920px
+  height: 100%
+  object-fit: cover
+
+.wrapper .dot
+  display: flex
+  position: relative
+  margin-top: 1rem
+
+.wrapper .dot span
+  width: 14px
+  height: 14px
+  border: 2px solid crimson
+  border-radius: 50%
+  margin: 0 5px
+  cursor: pointer
+  transition: border .3s ease-in-out
+
+.wrapper .dot span .clicked
+  border-width: 7px
+
+.style_link
+  text-decoration: none
+  &:hover
+    text-decoration: none
+.category
+  margin-top: 100px
+  text-align: center
+.category_style
+  font-weight: 500
+  font-size: 24px
+  line-height: 29px
+  text-transform: uppercase
+  color: $color_darkgreen
+  &:hover
+    text-decoration: underline
+    transition: all 1s
+
+  &:hover
+    color: $color_black
+.category_style_right
+  margin-top: 50px
+  font-weight: 500
+  font-size: 16px
+  line-height: 20px
+  color: $color_darkgreen
+  text-align: right
+  &:hover
+    color: $color_darkgreen
+.wrapper_block
+  display: grid
+  gap: 20px
+  grid-template-columns: repeat(6, 1fr)
+  //grid-template-rows: repeat(6, 473px)
+.block
+  padding: 25px 20px 20px 20px
+  margin-top: 50px
+  width: 237px
+  height: 416px
+  background: $color_white
+  border: 1px solid rgba(24, 46, 32, 0.05)
+  border-radius: 15px
+
+  &:hover
+
+    box-shadow: 4px 4px 10px rgba(51, 51, 53, 0.25)
+    border-radius: 15px
+
+.wrapper-top
+  //margin: 26px 0 0 10px
+
+.bage
+  //margin: 0 19px 0 28px
+
+.love
+  margin: 0 0 0 19px
+.scales
+  margin: 0 0 0 89px
+
+
+.sale
+  width: 40px
+  height: 30px
+  background: $color_orange
+  font-size: 14px
+  border-radius: 20px
+  text-align: center
+  align-items: center
+.was_price
+  font-weight: 600
+  font-size: 14px
+  line-height: 17px
+  color: $color_blue
+  text-decoration: line-through
+.content
+  text-align: center
+.img_desing_watch
+  margin-top: 31px
+.img_desing_keyboard
+  margin-top: 50px
+.img_desing
+  margin-top: 30px
+
+.category_text_price
+  margin-top: 29px
+  font-weight: 500
+  font-size: 14px
+  line-height: 17px
+  color: $color_darkgreen
+
+.category_text_two
+  margin-top: 20px
+  font-weight: 500
+  font-size: 14px
+  line-height: 17px
+  color: $color_darkgreen
+.category_text_keyboard
+  margin-top: 31px
+  font-weight: 500
+  font-size: 14px
+  line-height: 17px
+.price
+  color: $color_orange
+  font-weight: 500
+  font-size: 18px
+  &:hover
+    text-decoration: none
+    color: $color_orange
+
+.store_selection
+  margin-top: 27px
+.store_selection_two
+  margin-top: 15px
+.price_desing
+  display: flex
+  justify-content: space-between
+
+.rating
+  margin-top: 12px
+  padding: 0 0 0 50px
+  display: flex
+  align-items: flex-end
+  font-size: 20px
+  line-height: 0.75
+
+.rating_indent
+  margin-top: 22px
+  display: flex
+  align-items: flex-end
+  font-size: 20px
+  line-height: 0.75
+
+.rating__body
+  position: relative
+
+.rating__body::before
+  content: "★★★★★"
+  display: block
+  color: grey
+
+.rating__active
+  position: absolute
+  width: 20%
+  height: 100%
+  top: 0
+  left: 0
+  overflow: hidden
+
+.rating__active::before
+  content: "★★★★★"
+  position: absolute
+  width: 100%
+  height: 100%
+  top: 0
+  left: 0
+  color: $color_gold
+
+.rating__items
+  display: flex
+  position: absolute
+  width: 100%
+  height: 100%
+  top: 0
+  left: 0
+
+.rating__item
+  flex: 0 0 20%
+  height: 100%
+  opacity: 0
+
+.rating__value
+  font-size: 50%
+  line-height: 1
+  padding: 0 0 0 10px
+
+.discount_window
+  padding-top: 4px
+  text-align: center
+  font-weight: 600
+  font-size: 16px
+  line-height: 20px
+  color: $color_white
+  width: 69px
+  height: 28px
+  background: $color_orange
+  border-radius: 6px
+.category_text_vr
+  margin-top: 33px
+  font-weight: 500
+  font-size: 14px
+  line-height: 17px
+.img_desing_msi
+  margin-top: 46px
+.category_text_msi
+  margin-top: 28px
+  font-weight: 500
+  font-size: 14px
+  line-height: 17px
+  color: $color_darkgreen
+.img_desing_mouse
+  margin-top: 36px
+.img_desing_pc
+  margin-top: 34px
+.category_text_pc
+  margin-top: 26px
+  font-weight: 500
+  font-size: 14px
+  line-height: 17px
+  color: $color_darkgreen
+.img_desing_kovrik
+  margin-top: 44px
+.text_title_Mac
+  margin-top: 120px
+  text-align: center
+  font-weight: 700
+  font-size: 64px
+  line-height: 78px
+  text-transform: capitalize
+  color: $color_black
+.two_img
+  text-align: center
+  margin-top: 40px
+.img_desing_macBook
+  margin: 114px 0 0 62px
+.img_desing_max
+  margin-right: 10px
+  border-radius: 25px
+  border: 1px solid rgba(24, 46, 32, 0.5)
+.img_group_three
+  margin: 76px 0 100px  0
+  text-align: center
+.footer_style
+  height: 431px
+  background: #FFFBF5
+  padding: 50px 0 50px 0
+.footer_text_style
+  margin-top: 50px
+  font-weight: 600
+  font-size: 18px
+  line-height: 158.9%
+  color: $color_darkgreen
+.footer_icons
+  margin: 20px 10px 0 0
+.footer_img
+  margin: 50px 20px 0 0
+.footer_text_style_bottom
+  font-weight: 400
+  font-size: 19px
+  line-height: 158.9%
+  color: $color_darkgreen
+  margin-top: 50px
+.footer_block
+  display: flex
+  justify-content: space-between
+.footer_content
+  dispaly: block
+  font-weight: 600
+  font-size: 18px
+  color: $color_darkgreen
+  &:hover
+    color: $color_darkgreen
+.footer_title
+  font-weight: 600
+  font-size: 18px
+  color: $color_darkgreen
+.footer_item
+  text-align: left
+  font-weight: 400
+  font-size: 16px
+  color: $color_darkgreen
+  margin-top: 20px
+  &:hover
+    color: $color_darkgreen
